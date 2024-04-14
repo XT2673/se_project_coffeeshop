@@ -23,8 +23,11 @@
   margin: 0 0 80px;
 }
 .recipes__videos {
+  padding: 0;
+  margin:0;
   display: flex;
   justify-content: center;
+  list-style: none;
 }
 .recipes__video {
 }
