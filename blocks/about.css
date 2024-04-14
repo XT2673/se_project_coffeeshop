@@ -12,7 +12,7 @@
 }
 .about {
   background-color: #0a2850;
-  padding: 100px 80px;
+  padding: 100px 80px 173px;
   display: flex;
   justify-content: space-between;
   overflow: hidden;
@@ -28,6 +28,7 @@
   line-height: 52px;
 }
 .about__content {
+  margin-top: 19px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -50,12 +51,5 @@
   left: -129px;
 }
 .about__circle_animation_blurred {
-  background-color: #2f80ed;
-  width: 426px;
-  height: 426px;
-  border-radius: 50%;
-  position: absolute;
-  top: -152px;
-  left: -129px;
   animation: pulse 1.3s infinite ease-in-out;
 }

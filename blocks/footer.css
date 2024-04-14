@@ -17,7 +17,7 @@
 .footer__social-heading {
   margin: 0;
   font-weight: bold;
-  font-style: 16px;
+  font-size: 16px;
   line-height: 20px;
 }
 .footer__list {
@@ -27,8 +27,6 @@
 }
 .footer__list-item {
   margin-top: 20px;
-  font-style: 16px;
-  line-height: 20px;
 }
 .footer__social-icon {
   width: 16px;
@@ -45,5 +43,5 @@
   transition: color linear 0.5s;
 }
 .footer__copyright {
-  margin-top: 108px;
+  margin: 108px 0 0;
 }

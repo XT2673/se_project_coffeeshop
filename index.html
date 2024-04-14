@@ -41,12 +41,12 @@
           </ul>
         </nav>
         <h1 class="header__title">
-          <span class="header__span-accent">Specialty coffee</span> <br />in the
+          <span class="header__span-accent">Specialty coffee</span> in the
           Triple Peaks Library
         </h1>
         <p class="header__description">
-          Welcome to our study zone! We've got the coffee to energize you
-          <br />and the cozy vibes to help you get creative.
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
         </p>
         <img
           src="images/inside_coffee_shop.png"
@@ -54,9 +54,11 @@
           class="header__image"
         />
         <div class="header__footer">
-          <p class="header__paragraph">
-            Hours: <br />Mon-Fri (10AM - 7PM) <br />Sat-Sun (11AM - 6PM)
-          </p>
+          <div class="header__hours">
+            <p class="header__paragraph">Hours: Sat-Sun (11AM - 6PM)</p>
+            <p class="header__paragraph">Mon-Fri (10AM - 7PM)</p>
+            <p class="header__paragraph">Sat-Sun (11AM - 6PM)</p>
+          </div>
           <p class="header__paragraph">
             200 Success Avenue, The Town of Triple Peaks
           </p>
@@ -69,8 +71,8 @@
             Check out some recipes we've collected for your home-brewing
             convenience:
           </p>
-          <div class="recipes__videos">
-            <div class="recipes__video">
+          <ul class="recipes__videos">
+            <li class="recipes__video">
               <iframe
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=Fp15M-DLUmArD4pW"
                 title="YouTube video player"
@@ -83,8 +85,8 @@
                 <span class="recipes__span-accent">Areopress recipe</span>
                 <span class="recipes__span-accent">~5 min</span>
               </p>
-            </div>
-            <div class="recipes__video">
+            </li>
+            <li class="recipes__video">
               <iframe
                 src="https://www.youtube.com/embed/st571DYYTR8?si=B31WZpCxctVCp9Dz"
                 title="YouTube video player"
@@ -97,8 +99,8 @@
                 <span class="recipes__span-accent">French press recipe</span>
                 <span class="recipes__span-accent">~15 min</span>
               </p>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
         <section class="reservation" id="book">
           <h2 class="reservation__title">Book a table</h2>
@@ -125,7 +127,7 @@
                 />
               </label>
               <label class="form__label"
-                >Date & time *
+                >Date &amp time *
                 <input type="datetime-local" class="form__input" required />
               </label>
               <label class="form__label">
@@ -139,8 +141,8 @@
               </label>
             </fieldset>
             <button type="submit" class="form__button">Book a table</button>
-            <label class="form__checkbox form__label">
-              <input type="checkbox" class="form__input-checkbox" required />
+            <label class="form__label form__label_type_checkbox">
+              <input type="checkbox" class="form__checkbox" required />
               I agree with the terms of use
             </label>
           </form>
@@ -236,7 +238,7 @@
             </p>
           </div>
           <div class="about__circle"></div>
-          <div class="about__circle_animation_blurred"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
       <footer class="footer">
@@ -272,7 +274,7 @@
             </ul>
           </div>
         </div>
-        <p class="footer__copyright">&copy 2024 Julian Pelayo</p>
+        <p class="footer__copyright">&copy; 2024 Julian Pelayo</p>
       </footer>
     </div>
   </body>
